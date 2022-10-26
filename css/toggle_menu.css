@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  background-color: #5c4240;
+  font-family: "El Messiri""Work Sans""Franklin Gothic Medium";
+  font-weight: bold;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-family: "Antonio";
+  text-align: center;
+}
+
+h2 {
+  font-family: "Antonio";
+}
+
+dt {
+  font-family: "Work Sans";
+}
+
+dd {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Navbar Content*/
+.navbar {
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b0000;
+  color: #d3d3d3;
+}
+
+.navbar-logo-container {
+  box-sizing: border-box;
+  padding: 0.2rem;
+  border: 1px solid #d3d3d3;
+}
+
+.navbar-logo-text {
+  font-family: "Antonio";
+  padding: 2px;
+}
+
+.logo-icon {
+  margin: 0 auto;
+  width: 16px;
+}
+
+.shopping-cart {
+  padding-top: 0.7rem;
+}
+
+.burger-menu {
+  padding-top: 0.5rem;
+}
+
+.navbar-link-item {
+  visibility: collapse;
+}
+
+/* Links List */
+main {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-link {
+  padding: 1rem;
+}
+
+form {
+  padding: 3rem;
+}
+
+.search-field {
+  width: 9rem;
+  min-width: 0;
+}
+
+.search-btn {
+  width: 4rem;
+}
+
+/* Botom Bar */
+.social-networks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-brands {
+  width: 40px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  p {
+    font-size: large;
+  }
+
+  a {
+    font-size: large;
+  }
+
+  /* Navbar */
+  .navbar-logo-text {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+}

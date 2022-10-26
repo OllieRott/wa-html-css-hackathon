@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=El+Messiri:wght@400;500&family=Work+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/sign_in.css" />
+  <link rel="icon" href="images/index_images/favicon.ico" />
+  <title>Sign in</title>
+</head>
+
+<body>
+  <header>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+      <!-- Navbar Logo -->
+      <div class="navbar-logo-container">
+        <a class="navbar-logo-text" href="index.html">KAFFA
+          <img class="logo-icon" src="images/index_images/icons8-coffee-beans-50-white.png" alt="cofee beans" />
+        </a>
+      </div>
+      <a class="navbar-link-item" href="menu.html">Our menu</a>
+      <a class="navbar-link-item" href="index.html#footer-buttons-container">Our App</a>
+
+      <a class="navbar-link-item" href="sign-in.html">Sign in</a>
+      <a class="navbar-link-item" href="log_in.html">Log in</a>
+      <a class="shopping-cart" href=""><i class="fa-solid fa-cart-shopping fa-large"></i></a>
+      <!-- Toggle Menu -->
+      <a class="burger-menu" href="toggle_menu.html">
+        <i class="material-symbols-outlined">menu</i>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Create an account</h1>
+    <!-- Sign in Form -->
+    <form class="sign-in-form">
+      <div class="salutation">
+        <label>Mr.<input type="radio" name="salutation" /></label>
+        <label>Mrs.<input type="radio" name="salutation" /></label>
+      </div>
+      <label>Your First Name <input type="text" /></label>
+      <label>Your Inicials<input type="text" /></label>
+      <label>Your Last Name<input type="text" /></label>
+      <label>Your Birthday<input type="date" /></label>
+      <div class="payment-method">
+        <p>Payment Method</p>
+        <label>
+          <input type="radio" name="payment" />
+          <i class="fa-brands fa-cc-visa"></i>
+        </label>
+        <label>
+          <input type="radio" name="payment" />
+          <i class="fa-brands fa-cc-paypal"></i>
+        </label>
+        <label>
+          <input type="radio" name="payment" />
+          <i class="fa-brands fa-bitcoin"></i>
+        </label>
+      </div>
+      <label>Your Address<input type="text" value="Street" />
+        <input type="text" value="House Number" />
+        <input type="text" value="Zip Code" />
+        <input type="text" value="City" />
+        <input type="text" value="State" /></label>
+      <label>Your Email<input type="email" /></label>
+      <label>Password<input type="password" /></label>
+      <label>Re Enter Password<input type="password" /></label>
+
+      <div class="sign-in-btn">
+        <input type="submit" value="Sign In" />
+      </div>
+    </form>
+    <div class="home-link">
+      <a href="index.html">Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Footer Bottom Bar-->
+    <div class="bottom-content">
+      <div class="social-networks">
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
+      </div>
+      <div>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="copyright">© Oliver Bozinovski 2022</p>
+    </div>
+  </footer>
+  <!-- Font Awesome Icons Script -->
+  <script src="https://kit.fontawesome.com/f52f7a3922.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

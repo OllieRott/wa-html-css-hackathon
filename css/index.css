@@ -1,0 +1,324 @@
+html, body {
+  margin: 0;
+  background-color: #1b0000;
+  font-family: "El Messiri""Work Sans""Franklin Gothic Medium";
+  font-weight: bold;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5c4240;
+}
+
+/* Navbar*/
+.navbar {
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #d3d3d3;
+}
+
+.navbar-logo-container {
+  box-sizing: border-box;
+  padding: 0.2rem;
+  border: 1px solid #d3d3d3;
+}
+
+.navbar-logo-text {
+  font-family: "Antonio";
+  padding: 2px;
+}
+
+.logo-icon {
+  margin: 0 auto;
+  width: 16px;
+}
+
+.shopping-cart {
+  padding-top: 0.7rem;
+}
+
+.burger-menu {
+  padding-top: 0.5rem;
+}
+
+.navbar-link-item {
+  visibility: collapse;
+}
+
+/* Title container */
+.title {
+  display: grid;
+  background-image: url(../images/index_images/cofee-beens-justus-menke.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-wrapper {
+  width: 250px;
+  height: 250px;
+  display: table-cell;
+  background-color: #d3d3d3;
+  color: #5c4240;
+  border: #5c4240;
+  border-radius: 50%;
+  border-style: double;
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  align-items: center;
+}
+
+.logo-text-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text-main {
+  font-family: "Antonio";
+  font-size: 60px;
+  margin: 0;
+}
+
+.title-text-bottom {
+  font-size: 20px;
+}
+
+/* Coffee  and Lunch Sections */
+.coffee, .lunch {
+  display: grid;
+  padding: 0 10%;
+  border-top: 1rem solid #5c4240;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.coffee {
+  background-image: url(../images/index_images/coffee-to-go-daniel-hooper.jpg);
+}
+
+.lunch {
+  background-image: url(../images/index_images/club-sandwich-sophia-sideri.jpg);
+}
+
+.coffee-text, .lunch-text {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: #d3d3d3;
+  background: #5c4240;
+  opacity: .8;
+}
+
+.btn {
+  width: 100px;
+  padding: 5px 10px;
+  margin-top: 100px;
+  background-color: #5c4240;
+  opacity: .8;
+  border: 2px solid #d3d3d3;
+  font-family: "Antonio";
+  color: #d3d3d3;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #d3d3d3;
+  border: 2px solid #5c4240;
+  color: #5c4240;
+}
+
+.content-wrapper {
+  padding-top: 5rem;
+  color: #fff;
+}
+
+/* Footer */
+.footer-content {
+  display: grid;
+  padding: 0 10%;
+  border-top: 1rem solid #5c4240;
+  background-image: url(../images/index_images/caffee-in-the-fall-clay-banks.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-text {
+  margin-top: 5rem;
+  padding: 0 10%;
+  border-radius: 1rem;
+  border: #d3d3d3;
+  background: #5c4240;
+  opacity: .8;
+}
+
+.apple-app-store {
+  width: 100px;
+  padding: 5px 15px;
+  background-color: #5c4240;
+  ;
+  border: 2px solid #d3d3d3;
+  color: #d3d3d3;
+  border-radius: 10px;
+}
+
+.google-play-store {
+  width: 100px;
+  padding: 5px 10px;
+  margin-top: 100px;
+  background-color: #d3d3d3;
+  border: 2px solid #1b0000;
+  color: #1b0000;
+  border-radius: 10px;
+}
+
+.to-the-top {
+  color: #5c4240;
+}
+
+.to-the-top:hover {
+  color: #d3d3d3;
+}
+
+/* Botom Bar */
+.social-networks {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 1rem 1rem;
+}
+
+.fa-brands {
+  width: 40px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  p, a {
+    font-size: 1.2rem;
+  }
+
+  /* Navbar */
+  .navbar-logo-text {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .logo-icon {
+    width: 20px;
+  }
+
+  .burger-menu {
+    visibility: collapse;
+  }
+
+  .navbar-link-item {
+    visibility: visible;
+    padding-top: 0.5rem;
+  }
+
+  /* Title */
+  .logo-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .logo-text-top {
+    font-size: 20px;
+  }
+
+  .logo-text-main {
+    font-family: "Antonio";
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .title-text-bottom {
+    font-size: 30px;
+  }
+
+  /* Coffee and Lunch Sections */
+  .coffee, .lunch {
+    padding: 0 20%;
+  }
+  .btn {
+    width: 120px
+  }
+
+  /* Footer */
+  .footer-content {
+    padding: 0 20%;
+  }
+
+  .apple-app-store, .google-play-store {
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  p, a {
+    font-size: 1.4rem;
+  }
+
+  /* Title */
+  .logo-wrapper {
+    width: 350px;
+    height: 350px;
+  }
+
+  .logo-text-top {
+    font-size: 24px;
+  }
+
+  .logo-text-main {
+    font-family: "Antonio";
+    font-size: 74px;
+    margin: 0;
+  }
+
+  .title-text-bottom {
+    font-size: 34px;
+  }
+
+  /* Coffee and Lunch Section */
+  .coffee, .lunch {
+    padding: 0 35%;
+  }
+
+  .btn {
+    width: 130px
+  }
+
+  /* Footer */
+  .footer-content {
+    padding: 0 35%;
+  }
+}
